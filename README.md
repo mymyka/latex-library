@@ -1,2 +1,2 @@
-# latex-library
+# LaTeX Library
 LaTeX Library
