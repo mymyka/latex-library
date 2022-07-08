@@ -1,0 +1,13 @@
+\ProvidesPackage{library/styles/standart-figure}
+
+\RequirePackage{graphicx}
+\RequirePackage{float}
+\RequirePackage{wrapfig}
+
+\RequirePackage[tableposition=top]{caption}
+\RequirePackage{subcaption}
+\DeclareCaptionLabelFormat{gostfigure}{Рисунок #2}
+\DeclareCaptionLabelSeparator{gost}{~--~}
+\captionsetup{labelsep=gost}
+\captionsetup[figure]{labelformat=gostfigure}
+\renewcommand{\thesubfigure}{\asbuk{subfigure}}

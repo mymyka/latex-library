@@ -1,0 +1,10 @@
+\ProvidesPackage{library/styles/standart-table}
+
+\RequirePackage[tableposition=top]{caption}
+\RequirePackage{subcaption}
+\DeclareCaptionLabelFormat{gosttable}{Таблица #2}
+\DeclareCaptionLabelSeparator{gost}{~--~}
+\captionsetup{labelsep=gost}
+\captionsetup[table]{labelformat=gosttable}
+\captionsetup[table]{justification=justified,singlelinecheck=false}
+\captionsetup[table]{width=0.85\textwidth}
