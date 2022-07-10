@@ -1,2 +1,0 @@
-# LaTeX Library
-LaTeX Library
